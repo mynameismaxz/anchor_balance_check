@@ -2,7 +2,7 @@
 import os
 
 # terra configuration
-terra_wallet_addr = os.environ.get("WALLET", "<Put your wallet address here!>")
+terra_wallet_addr = os.environ.get("WALLET", "")
 chainId = "columbus-4"                              # MainNet -> if testnet, using tequila-0004
 publicNodeUrl = "https://lcd.terra.dev"             # MainNet -> if testnet, using https://tequila-fcd.terra.dev
 anchorTerraContract = "terra1hzh9vpxhsk8253se0vv5jj6etdvxu3nv8z07zu"
